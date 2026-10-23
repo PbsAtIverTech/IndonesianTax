@@ -1,0 +1,8 @@
+# Business Central specific
+.alpackages/
+*.app
+rad.json
+
+# VS Code environment specific
+.vscode/launch.json
+.vscode/settings.json
