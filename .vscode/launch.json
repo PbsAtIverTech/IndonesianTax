@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "MySandBox",
+            "tenant": "684c1fc8-a4e4-4c0f-a057-fb6e7978e194",
+            "startupObjectId": 50164,
+            "startupObjectType": "Page",
+            "authentication": "MicrosoftEntraID",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize",
+        },
+        {
+            "name": "snapshotInitialize: Microsoft sandbox cloud",
+            "type": "al",
+            "request": "snapshotInitialize",
+            "environmentType": "Sandbox",
+            "environmentName": "MySandBox",
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile"
+        }
+    ]
+}
